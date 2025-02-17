@@ -84,7 +84,7 @@ rack = ""
 while not 2 <= len(rack):
     rack = str(input("Give me a rack of at least 2 tiles (use ? as blanks)"))
 
-word_file = r"/Users/jacobschiller/Downloads/Scrabble Dictionary.txt"  # Replace with your word list file
+word_file = r"/Users/USERNAME/Downloads/Scrabble Dictionary.txt"  # Replace with your word list file
 found_words = find_legal_words(rack.upper(), word_file)
 words_and_scores = []
 for word in found_words:
